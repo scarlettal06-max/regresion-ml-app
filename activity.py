@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
 st.set_page_config(page_title="ML Export", layout="wide")
-st.title("ðŸ¤– ML: RegresiÃ³n y ExportaciÃ³n")
+st.title(" ML: Regresión y Exportación")
 
 uploaded_file = st.file_uploader("Sube tu archivo CSV", type=["csv"])
 
